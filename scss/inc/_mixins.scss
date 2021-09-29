@@ -9,3 +9,24 @@
 		flex-wrap: wrap;
 	}
 }
+
+@mixin laptop {
+	@media (max-width: #{$laptop}) {
+		@content;
+	}
+}
+@mixin tablet {
+	@media (max-width: #{$tablet}) {
+		@content;
+	}
+}
+@mixin ls-phone {
+	@media (max-width: #{$lsphone}) {
+		@content;
+	}
+}
+@mixin phone {
+	@media (max-width: #{$phone}) {
+		@content;
+	}
+}
