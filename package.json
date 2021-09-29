@@ -1,0 +1,36 @@
+{
+  "name": "isworkshop-theme",
+  "version": "1.0.0",
+  "description": "ISWorkshop Theme for WordPress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isworkshop/isworkshop-theme.git"
+  },
+  "keywords": [
+    "isworkshop",
+    "wordpress",
+    "theme",
+    "multipurpose"
+  ],
+  "author": "ISWorkshop Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isworkshop/isworkshop-theme/issues"
+  },
+  "homepage": "https://github.com/isworkshop/isworkshop-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.2.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.42.1"
+  }
+}

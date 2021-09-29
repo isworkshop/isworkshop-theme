@@ -1,0 +1,11 @@
+@mixin flex($direction, $justify, $align, $wrap) {
+	display: flex;
+	@if $direction == column {
+		flex-direction: column;
+	}
+	justify-content: $justify;
+	align-items: $align;
+	@if $wrap == true {
+		flex-wrap: wrap;
+	}
+}

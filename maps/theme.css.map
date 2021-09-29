@@ -1,0 +1,1 @@
+{"version":3,"sources":["inc/_init.scss","theme.css"],"names":[],"mappings":"AAAA;EACC,SAAA;EACA,UAAA;EACA,sBAAA;ACCD","file":"../scss/theme.css","sourcesContent":["* {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tbox-sizing: border-box;\r\n}\r\n","* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}"]}
